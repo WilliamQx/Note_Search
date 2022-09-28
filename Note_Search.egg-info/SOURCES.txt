@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Note_Search/Note_search.py
+Note_Search/__init__.py
+Note_Search/__version__.py
+Note_Search.egg-info/PKG-INFO
+Note_Search.egg-info/SOURCES.txt
+Note_Search.egg-info/dependency_links.txt
+Note_Search.egg-info/top_level.txt
+Test/Note_Search_Tests.py
+Test/__init__.py
