@@ -40,9 +40,10 @@ class DataRead(object):
         for line_number, content in enumerate(content_list):
             if content != '\n':
                 content = str(line_number + 1) + content
+                print(content, end='')
             else:
                 pass
-            print(content, end='')
+
             '''
             用这种方式就是等于把content直接输出了，而此时的content是/n，于是就等于
             直接换行了。
