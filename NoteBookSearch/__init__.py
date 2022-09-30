@@ -3,3 +3,5 @@
 # @Author  : William
 # @FileName: __init__.py.py
 # @Software: PyCharm
+from NoteBookSearch.NoteBookSearch import test
+from NoteBookSearch.DataRead import DataRead

@@ -2,7 +2,7 @@ LICENSE
 MANIFEST.in
 README.md
 setup.py
-NoteSearch/Note_search.py
+NoteSearch/NoteSearch.py
 NoteSearch/__init__.py
 NoteSearch/__version__.py
 NoteSearch.egg-info/PKG-INFO

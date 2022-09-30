@@ -12,13 +12,13 @@ from shutil import rmtree
 from setuptools import find_packages, setup, Command
 
 # Package meta-data.
-NAME = 'NoteSearch'
+NAME = 'NoteBookSearch'
 DESCRIPTION = 'This is a tool to search key word in a folder.'
 URL = 'https://github.com/WilliamQx/Note_Search'
 EMAIL = 'WilliamKaronLG@outlook.com'
 AUTHOR = 'William Karon Leung'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.0.1'
+VERSION = '0.0.2'
 
 # What packages are required for this module to be executed?
 REQUIRED = [

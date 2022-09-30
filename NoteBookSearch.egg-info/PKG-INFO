@@ -1,3 +1,23 @@
+Metadata-Version: 2.1
+Name: NoteBookSearch
+Version: 0.0.2
+Summary: This is a tool to search key word in a folder.
+Home-page: https://github.com/WilliamQx/Note_Search
+Author: William Karon Leung
+Author-email: WilliamKaronLG@outlook.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+
 📦 Note_search 用户手册
 =======================
 
@@ -49,8 +69,7 @@ pip install Note_search
 1. 简易文件下载器
 2. GUI or web
 
-## 开发日志
 
-- [x] 2022年09月30日
-- 读取文件时如何剔除空行
+
+
 
