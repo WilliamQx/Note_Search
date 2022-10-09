@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 # @Time    : 28/09/2022 6:40 PM
 # @Author  : William
-# @FileName: DataRead.py
+# @FileName: DataManager.py
 # @Software: PyCharm
 
 class DataRead(object):

@@ -4,4 +4,11 @@
 # @FileName: __init__.py.py
 # @Software: PyCharm
 from NoteBookSearch.NoteBookSearch import test
-from NoteBookSearch.DataRead import DataRead
+from NoteBookSearch.DataManager import DataRead
+
+'''
+This is to provide convenience to the users,  this will allow
+them to import directly from NoteBookSearch,
+"from NoteBookSearch import DataManager", now they don't need to have the .DataManager
+as above. 
+'''
