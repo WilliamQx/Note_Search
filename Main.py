@@ -5,14 +5,16 @@
 # @Software:
 
 from NoteBookSearch import NoteBookSearch
-from NoteBookSearch import DataRead
+from NoteBookSearch import DataManager
 from NoteBookSearch import test
 import re
 from uuid import uuid4
-abs_path = r"C:\Users\Willi\Documents\Note_Seach\NoteBookSearch\DataManager.py"
-d = DataRead(abs_path)
-print(d.postfix(abs_path)) #得到后缀
-print(d.main())
+abs_path = r"C:\Users\Willi\Documents\Note_Seach\build\lib\NoteBookSearch"
+d = DataManager(abs_path)
+d.run()
+# print(d.postfix(abs_path)) #得到后缀
+# print(d.main())
+# d.path_generator()
 # a = uuid4()
 # print(a)
 
@@ -26,3 +28,7 @@ print(d.main())
 # pattern = '(\d+).*?(print).*?'
 # result = re.findall(pattern,s)
 # print(result)
+# path_lst = d.path_generator()
+# for path in path_lst:
+#     r = d.main(path)
+    # print(r)

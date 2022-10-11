@@ -4,7 +4,7 @@
 # @FileName: __init__.py.py
 # @Software: PyCharm
 from NoteBookSearch.NoteBookSearch import test
-from NoteBookSearch.DataManager import DataRead
+from NoteBookSearch.DataManager import DataManager
 
 '''
 This is to provide convenience to the users,  this will allow

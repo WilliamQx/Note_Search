@@ -1,0 +1,5 @@
+{"dict_path": [
+    {"uuid1": "filepath"},
+    {"uuid2": "filepath2"},
+    {"uuid3": "filepath3"}
+]}
