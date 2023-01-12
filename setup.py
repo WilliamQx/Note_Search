@@ -18,7 +18,7 @@ URL = 'https://github.com/WilliamQx/Note_Search'
 EMAIL = 'WilliamKaronLG@outlook.com'
 AUTHOR = 'William Karon Leung'
 REQUIRES_PYTHON = '>=3.6.0'
-VERSION = '0.0.2'
+VERSION = '0.0.4'
 
 # What packages are required for this module to be executed?
 REQUIRED = [

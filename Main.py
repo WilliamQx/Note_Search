@@ -11,11 +11,12 @@ from NoteBookSearch import Search_engine
 import os
 import re
 from uuid import uuid4
+
 abs_path = r"C:\Users\Willi\Documents\Note_Seach\build\lib\NoteBookSearch"
 d = DataManager(abs_path)
 #d.run()
-s = Search_engine()
-print(s.search("断文件"))
+s = Search_engine(language='zh_cn')
+s.search("断文件")
 # print(type(s.json_to_dict("PATH_JSON.json")))
 # print(s.json_to_dict("PATH_JSON.json"))
 # print('----------------------------------------------------------------')
