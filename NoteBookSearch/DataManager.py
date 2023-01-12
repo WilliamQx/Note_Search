@@ -114,7 +114,7 @@ class DataManager(object):
         """
         suffix = self.postfix(path=path)
         content = self.decide_suffix(path, suffix)  # 判断文件后缀，使用对应函数打开文件
-        print(content)
+        #print(content)
         if content: #如果有有内容我们就parse一下他
             return self.parse(content, path)
         else: #要是没有内容我们就说下面那句话
