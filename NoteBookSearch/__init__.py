@@ -5,6 +5,7 @@
 # @Software: PyCharm
 from NoteBookSearch.NoteBookSearch import test
 from NoteBookSearch.DataManager import DataManager
+from NoteBookSearch.SEARCH_ENGINE import Search_engine
 
 '''
 This is to provide convenience to the users,  this will allow

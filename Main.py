@@ -7,11 +7,19 @@
 from NoteBookSearch import NoteBookSearch
 from NoteBookSearch import DataManager
 from NoteBookSearch import test
+from NoteBookSearch import Search_engine
+import os
 import re
 from uuid import uuid4
 abs_path = r"C:\Users\Willi\Documents\Note_Seach\build\lib\NoteBookSearch"
 d = DataManager(abs_path)
-d.run()
+#d.run()
+s = Search_engine()
+print(s.search("断文件"))
+# print(type(s.json_to_dict("PATH_JSON.json")))
+# print(s.json_to_dict("PATH_JSON.json"))
+# print('----------------------------------------------------------------')
+# print(s.match_uuid("断文件","PATH_JSON.json"))
 # print(d.postfix(abs_path)) #得到后缀
 # print(d.main())
 # d.path_generator()
